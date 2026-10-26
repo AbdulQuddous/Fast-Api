@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments & Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+*.env.*
+!*.env.example
+
+# Databases (SQLite / local dev DBs)
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+
+# Project-specific logs
+*.log
+log.txt
+
+# Testing & Coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# Type checkers & Linters
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
